@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RC Plane Garage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_plane">Add Plane</string>
+    <string name="view_plane_list">View Plane List</string>
+    <string name="click_to_show_list">Click to Show List</string>
+    <string name="click_to_show_alphabetically">Click to Show Alphabetically</string>
+    <string name="sort_alphabetically">Sort Alphabetically</string>
+    <string name="click_to_show_list_by_type">Click to Show List By Type</string>
+    <string name="sort_by_type">Sort By Type</string>
+    <string name="_2">2</string>
+    <string name="flight_time">Flight Time</string>
+    <string name="e_g_nitro">e.g. Nitro</string>
+    <string name="power_system">Power System</string>
+    <string name="e_g_stunt">e.g. Stunt</string>
+    <string name="plane_type_">Plane Type</string>
+    <string name="e_g_the_beast">e.g. The Beast</string>
+    <string name="plane_name">Plane Name</string>
+    <string name="save_plane">Save Plane</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
