@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22498CA418F3CA1100AB171B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22498CA318F3CA1100AB171B /* Parse.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		927D950A188F5B40005C2F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D9509188F5B40005C2F44 /* Foundation.framework */; };
 		927D950C188F5B40005C2F44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D950B188F5B40005C2F44 /* CoreGraphics.framework */; };
 		927D950E188F5B40005C2F44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D950D188F5B40005C2F44 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		927D952F188F5B40005C2F44 /* RC_Plane_GarageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927D952E188F5B40005C2F44 /* RC_Plane_GarageTests.m */; };
 		927D953B188F5BA8005C2F44 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927D9539188F5BA8005C2F44 /* MainViewController.m */; };
 		927D953C188F5BA8005C2F44 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 927D953A188F5BA8005C2F44 /* MainViewController.xib */; };
-		927D953E188F5C7E005C2F44 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D953D188F5C7E005C2F44 /* Parse.framework */; };
 		927D9540188F5CAD005C2F44 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D953F188F5CAD005C2F44 /* AudioToolbox.framework */; };
 		927D9542188F5CB6005C2F44 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D9541188F5CB6005C2F44 /* CFNetwork.framework */; };
 		927D9544188F5CCC005C2F44 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D9543188F5CCC005C2F44 /* CoreLocation.framework */; };
@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22498CA318F3CA1100AB171B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		927D9506188F5B40005C2F44 /* RC Plane Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC Plane Garage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927D9509188F5B40005C2F44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		927D950B188F5B40005C2F44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,7 +74,6 @@
 		927D9538188F5BA8005C2F44 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		927D9539188F5BA8005C2F44 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		927D953A188F5BA8005C2F44 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		927D953D188F5C7E005C2F44 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		927D953F188F5CAD005C2F44 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		927D9541188F5CB6005C2F44 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		927D9543188F5CCC005C2F44 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -115,9 +115,9 @@
 				927D9544188F5CCC005C2F44 /* CoreLocation.framework in Frameworks */,
 				927D950C188F5B40005C2F44 /* CoreGraphics.framework in Frameworks */,
 				927D9542188F5CB6005C2F44 /* CFNetwork.framework in Frameworks */,
+				22498CA418F3CA1100AB171B /* Parse.framework in Frameworks */,
 				927D9540188F5CAD005C2F44 /* AudioToolbox.framework in Frameworks */,
 				927D950E188F5B40005C2F44 /* UIKit.framework in Frameworks */,
-				927D953E188F5C7E005C2F44 /* Parse.framework in Frameworks */,
 				927D950A188F5B40005C2F44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +157,7 @@
 		927D9508188F5B40005C2F44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22498CA318F3CA1100AB171B /* Parse.framework */,
 				92C13E57188F91DB0059F157 /* libsqlite3.dylib */,
 				927D954F188F5D05005C2F44 /* SystemConfiguration.framework */,
 				927D954D188F5CF9005C2F44 /* StoreKit.framework */,
@@ -167,7 +168,6 @@
 				927D9543188F5CCC005C2F44 /* CoreLocation.framework */,
 				927D9541188F5CB6005C2F44 /* CFNetwork.framework */,
 				927D953F188F5CAD005C2F44 /* AudioToolbox.framework */,
-				927D953D188F5C7E005C2F44 /* Parse.framework */,
 				927D9509188F5B40005C2F44 /* Foundation.framework */,
 				927D950B188F5B40005C2F44 /* CoreGraphics.framework */,
 				927D950D188F5B40005C2F44 /* UIKit.framework */,
@@ -277,7 +277,7 @@
 		927D94FE188F5B40005C2F44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Michael Smith";
 				TargetAttributes = {
 					927D9520188F5B40005C2F44 = {
@@ -386,7 +386,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -425,7 +424,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -461,7 +459,18 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/snuffyms/Dropbox/CPM/Week\\ 3/RC\\ Plane\\ Garage",
+					/Users/SithWebLord/Desktop/CPM/iOS/RC,
+					Plane,
+					Garage,
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Users/snuffyms/Dropbox/CPM/Week,
+					3/RC,
+					Plane,
+					Garage,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RC Plane Garage/RC Plane Garage-Prefix.pch";
@@ -476,9 +485,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
-					"/Users/snuffyms/Dropbox/CPM/Week\\ 3/RC\\ Plane\\ Garage",
+					/Users/SithWebLord/Desktop/CPM/iOS/RC,
+					Plane,
+					Garage,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RC Plane Garage/RC Plane Garage-Prefix.pch";
@@ -491,7 +504,6 @@
 		927D9536188F5B40005C2F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RC Plane Garage.app/RC Plane Garage";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -514,7 +526,6 @@
 		927D9537188F5B40005C2F44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RC Plane Garage.app/RC Plane Garage";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

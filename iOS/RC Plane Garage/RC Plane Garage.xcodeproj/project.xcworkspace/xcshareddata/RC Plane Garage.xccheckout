@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB888633-B414-4E78-A4CF-DA287DD1B3AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RC Plane Garage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C97036A9-4DC2-4556-B051-7C00B39EF011</key>
+		<string>https://github.com/mikesmithjr/CPM.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/RC Plane Garage/RC Plane Garage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C97036A9-4DC2-4556-B051-7C00B39EF011</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mikesmithjr/CPM.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C97036A9-4DC2-4556-B051-7C00B39EF011</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C97036A9-4DC2-4556-B051-7C00B39EF011</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CPM</string>
+		</dict>
+	</array>
+</dict>
+</plist>
